@@ -12,7 +12,7 @@ const About = () => {
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
-        <div className="md:w-[45%] text-center md:text-left mt-12 md:mt-0 md:pr-8 lg:pr-16">
+        <div className="md:w-[52%] lg:w-[55%] text-center md:text-left mt-12 md:mt-0 md:pr-6 lg:pr-10">
           {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
@@ -23,11 +23,12 @@ const About = () => {
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am an </span>
+            <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'AI Engineer',
-                'AI Full-Stack Engineer',
+                'Java Full Stack Developer',
+                'Spring Boot Developer',
+                'Backend & Microservices Engineer',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -40,12 +41,12 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-10 mt-8 leading-relaxed md:leading-loose text-justify">
-            AI Engineer / Full-Stack Software Engineer with hands-on experience building LLM-powered applications, RAG pipelines, AI agents, and scalable backend systems using TypeScript, Node.js, Express.js, NestJS, LangChain, MongoDB Vector Search, and cloud services. Experienced in integrating LLMs into real-time AI products, browser automation, and event-driven systems.
+            Result-driven Java Full Stack Developer with 2+ years of experience specializing in backend architecture, scalable microservices, and RESTful API development. Expertise across the Java ecosystem (Spring Boot, Spring Data JPA, Hibernate, Spring Security) with strong database fundamentals in MySQL and PostgreSQL. Proven ability to enhance system performance through Redis caching, decouple asynchronous processes using Kafka and RabbitMQ message queues, and integrate responsive frontends with React.js and Angular.
           </p>
           {/* Resume Button */}
           <a
-            href="/extra-data/Imtiyaz_Ahamad_MERN_AI_Engineer_Resume.pdf"
-            download="Imtiyaz_Ahamad_MERN_AI_Engineer_Resume.pdf"
+            href="/extra-data/Imtiyaz_Ahamad_Java_Full_Stack_Developer.pdf"
+            download="Imtiyaz_Ahamad_Java_Full_Stack_Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -59,7 +60,7 @@ const About = () => {
 
         </div>
         {/* Right Side */}
-        <div className="w-full md:w-[60%] flex justify-center md:justify-end h-[480px] md:h-[650px] md:-mt-16">
+        <div className="w-full md:w-[48%] lg:w-[45%] flex justify-center md:justify-end h-[480px] md:h-[650px] md:-mt-16">
           <CharacterModel />
         </div>
       </div>
